@@ -17,7 +17,7 @@ describe("handle sign up", () =>{
     test("sign Up", async() =>{
     await page.click("a[id='signin2']")
     await page.fill("input[id='sign-username']", "jayakrishnaarasu34")
-    await page.fill("input[id='sign-password']","kicha23031998")
+    await page.fill("input[id='sign-password']","")
     await page.click("//button[text()='Sign up']")
     //await browser.close();
 })
